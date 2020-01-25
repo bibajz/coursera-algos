@@ -1,7 +1,17 @@
+use std::env;
+
+mod inversions_count;
 mod mergesort;
 mod utils;
 
 fn main() {
+    let args: Vec<String> = env::args().collect();
+    let filename = &args[1];
+
+    println!(
+        "Number of inversions: {}",
+        inversions_count::sort_and_count_inv_from_file(filename).1
+    );
 }
 
 #[test]
