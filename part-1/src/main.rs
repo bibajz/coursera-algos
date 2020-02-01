@@ -2,6 +2,7 @@ use std::env;
 
 mod inversions_count;
 mod mergesort;
+mod pivot_pick_strategies;
 mod utils;
 
 fn main() {
