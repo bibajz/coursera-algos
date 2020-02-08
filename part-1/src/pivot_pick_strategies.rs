@@ -19,7 +19,7 @@ pub fn first_pivot_pick_strategy<T: Copy>(list: &[T]) -> (T, usize) {
 }
 
 pub fn last_pivot_pick_strategy<T: Copy>(list: &[T]) -> (T, usize) {
-    (list[list.len() - 1], list.len())
+    (list[list.len() - 1], list.len() - 1)
 }
 
 pub fn median_of_three_pivot_pick_strategy<T: Copy + Ord>(list: &[T]) -> (T, usize) {
