@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="wjMrtAPF" />
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="182" y="124" width="1540" height="871" key="MergeDialog" timestamp="1582752935127">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="182" y="124" width="1540" height="871" key="MergeDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1582752935127" />
+    <state x="659" y="274" width="594" height="570" key="MultipleFileMergeDialog" timestamp="1582752935134">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="659" y="274" width="594" height="570" key="MultipleFileMergeDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1582752935134" />
   </component>
 </project>
